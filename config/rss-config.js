@@ -14,6 +14,36 @@
 export const config = {
   sources: [
     {
+      name: "linux.do 羊毛",
+      url: "https://linux.do/c/welfare/36.rss",
+      category: "羊毛",
+    },
+    {
+      name: "cool paper",
+      url: "https://papers.cool/arxiv/cs.CL/feed",
+      category: "论文",
+    },
+    {
+      name: "LINUX DO 今日热门",
+      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily",
+      category: "论坛",
+    },
+    {
+      name: "LINUX DO 近一周热门",
+      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly",
+      category: "论坛",
+    },
+    {
+      name: "LINUX DO 近一月热门",
+      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly",
+      category: "论坛",
+    },
+    {
+      name: "arxiv",
+      url: "https://rss.arxiv.org/rss/cs.CL",
+      category: "论文",
+    },
+    {
       name: "Hacker News 近期最佳",
       url: "https://hnrss.org/best",
       category: "科技资讯",
@@ -58,21 +88,6 @@ export const config = {
     //   url: "https://rsshub.rssforever.com/producthunt/today",
     //   category: "产品资讯",
     // },
-    {
-      name: "LINUX DO 今日热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily",
-      category: "论坛",
-    },
-    {
-      name: "LINUX DO 近一周热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly",
-      category: "论坛",
-    },
-    {
-      name: "LINUX DO 近一月热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly",
-      category: "论坛",
-    },
     {
       name: "V2EX 今日热门",
       url: "https://rsshub.rssforever.com/v2ex/topics/hot",
