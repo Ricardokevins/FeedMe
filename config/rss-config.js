@@ -15,7 +15,7 @@ export const config = {
   sources: [
     {
       name: "linux.do 羊毛",
-      url: "https://linux.do/c/welfare/36.rss",
+      url: "https://r4l.deno.dev/https://linux.do/c/welfare/36.rss?period=daily",
       category: "羊毛",
     },
     {
@@ -54,16 +54,6 @@ export const config = {
       category: "科技资讯",
     },
     {
-      name: "Github 今日热门",
-      url: "https://rsshub.rssforever.com/github/trending/daily/any",
-      category: "代码项目",
-    },
-    {
-      name: "Github 近一周热门",
-      url: "https://rsshub.rssforever.com/github/trending/weekly/any",
-      category: "代码项目",
-    },
-    {
       name: "Hugging Face 每日论文",
       url: "https://rsshub.rssforever.com/huggingface/daily-papers",
       category: "科研论文",
@@ -83,11 +73,6 @@ export const config = {
       url: "https://rsshub.rssforever.com/google/research",
       category: "技术博客",
     },
-    // {
-    //   name: "Product Hunt 今日热门",
-    //   url: "https://rsshub.rssforever.com/producthunt/today",
-    //   category: "产品资讯",
-    // },
     {
       name: "V2EX 今日热门",
       url: "https://rsshub.rssforever.com/v2ex/topics/hot",
