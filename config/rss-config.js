@@ -39,6 +39,16 @@ export const config = {
       category: "论坛",
     },
     {
+      name: "zaobaoNews",
+      url: "https://plink.anyfeeder.com/zaobao/realtime/world",
+      category: "zaobaoNews",
+    },
+    {
+      name: "zhihu-daily",
+      url: "https://rsshub.app/zhihu/daily",
+      category: "zhihu-daily",
+    },
+    {
       name: "arxiv",
       url: "https://rss.arxiv.org/rss/cs.CL",
       category: "论文",
