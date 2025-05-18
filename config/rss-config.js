@@ -14,28 +14,38 @@
 export const config = {
   sources: [
     {
-      name: "linux.do 羊毛",
-      url: "https://r4l.deno.dev/https://linux.do/c/welfare/36.rss?period=daily",
-      category: "羊毛",
-    },
-    {
       name: "cool paper",
       url: "https://papers.cool/arxiv/cs.CL/feed",
       category: "论文",
     },
     {
+      name: "linux.do 羊毛",
+      url: "https://r4l.deno.dev/https://linux.do/c/welfare/36.rss?period=daily&00f8347792a037b48dd79c144b497315",
+      category: "羊毛",
+    },
+    {
       name: "LINUX DO 今日热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily",
+      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily&00f8347792a037b48dd79c144b497315",
       category: "论坛",
     },
     {
       name: "LINUX DO 近一周热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly",
+      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly&00f8347792a037b48dd79c144b497315",
       category: "论坛",
     },
     {
       name: "LINUX DO 近一月热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly",
+      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly&00f8347792a037b48dd79c144b497315",
+      category: "论坛",
+    },
+    {
+      name: "LINUX DO 每日精华神帖",
+      url: "https://r4l.deno.dev/https://linux.do/tag/精华神帖.rss?period=daily&00f8347792a037b48dd79c144b497315",
+      category: "论坛",
+    },
+    {
+      name: "LINUX DO 每周精华神帖",
+      url: "https://r4l.deno.dev/https://linux.do/tag/精华神帖.rss?period=weekly&00f8347792a037b48dd79c144b497315",
       category: "论坛",
     },
     {
