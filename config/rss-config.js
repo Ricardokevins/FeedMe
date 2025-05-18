@@ -49,6 +49,11 @@ export const config = {
       category: "论坛",
     },
     {
+      name: "知乎想法热榜",
+      url: "https://rss.aishort.top/?type=zhihu",
+      category: "论坛",
+    },
+    {
       name: "zaobaoNews",
       url: "https://plink.anyfeeder.com/zaobao/realtime/world",
       category: "zaobaoNews",
