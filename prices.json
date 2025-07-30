@@ -910,6 +910,20 @@
     "output": 0.0
   },
   {
+    "model": "gemini-2.5-pro",
+    "type": "tokens",
+    "channel_type": 25,
+    "input": 0.625,
+    "output": 8
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "type": "tokens",
+    "channel_type": 25,
+    "input": 0.15,
+    "output": 8
+  },
+  {
     "model": "Baichuan-Text-Embedding",
     "type": "tokens",
     "channel_type": 26,
