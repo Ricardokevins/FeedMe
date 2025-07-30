@@ -2607,6 +2607,20 @@
       "output": 5.0
     },
     {
+      "model": "gemini-2.5-flash",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.05,
+      "output": 0.2
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "type": "tokens",
+      "channel_type": 20,
+      "input": 0.625,
+      "output": 5.0
+    },
+    {
       "model": "google/gemini-2.5-pro-exp-03-25",
       "type": "tokens",
       "channel_type": 20,
